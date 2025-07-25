@@ -40,7 +40,7 @@ function Filter({
               fontSize: "0.9rem",
             }}
           >
-            🍺 Brewery Type:
+            Brewery Type:
           </label>
           <select
             onChange={(e) => setTypeFilter(e.target.value)}
@@ -54,14 +54,14 @@ function Filter({
             }}
           >
             <option value="">All Types</option>
-            <option value="micro">🔬 Micro</option>
+            <option value="micro">Micro</option>
             <option value="nano">⚡ Nano</option>
-            <option value="regional">🌎 Regional</option>
-            <option value="brewpub">🍽️ Brewpub</option>
-            <option value="large">🏭 Large</option>
-            <option value="planning">📋 Planning</option>
-            <option value="contract">📝 Contract</option>
-            <option value="proprietor">👤 Proprietor</option>
+            <option value="regional">Regional</option>
+            <option value="brewpub">Brewpub</option>
+            <option value="large">Large</option>
+            <option value="planning">Planning</option>
+            <option value="contract">Contract</option>
+            <option value="proprietor">Proprietor</option>
           </select>
         </div>
 
@@ -74,7 +74,7 @@ function Filter({
               fontSize: "0.9rem",
             }}
           >
-            🗺️ State:
+            State:
           </label>
           <select
             onChange={(e) => setStateFilter(e.target.value)}
@@ -105,7 +105,7 @@ function Filter({
               fontSize: "0.9rem",
             }}
           >
-            🏙️ City:
+            City:
           </label>
           <select
             onChange={(e) => setCityFilter(e.target.value)}
@@ -139,7 +139,7 @@ function Filter({
               fontSize: "0.9rem",
             }}
           >
-            🌍 Country:
+            Country:
           </label>
           <select
             onChange={(e) => setCountryFilter(e.target.value)}
@@ -184,11 +184,11 @@ function Filter({
             }}
           >
             <option value="">Default Order</option>
-            <option value="name:asc">📛 Name (A-Z)</option>
-            <option value="name:desc">📛 Name (Z-A)</option>
-            <option value="brewery_type:asc">🍺 Type (A-Z)</option>
-            <option value="state:asc">🗺️ State (A-Z)</option>
-            <option value="city:asc">🏙️ City (A-Z)</option>
+            <option value="name:asc">Name (A-Z)</option>
+            <option value="name:desc">Name (Z-A)</option>
+            <option value="brewery_type:asc">Type (A-Z)</option>
+            <option value="state:asc">State (A-Z)</option>
+            <option value="city:asc">City (A-Z)</option>
           </select>
         </div>
       </div>

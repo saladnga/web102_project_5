@@ -43,7 +43,7 @@ function Stats({ breweries, totalBreweries = 0 }) {
     >
       <div style={{ textAlign: "center" }}>
         <h3 style={{ margin: "0 0 0.5rem 0", color: "#333" }}>
-          📊 Total Count
+          Total Count
         </h3>
         <p
           style={{
@@ -60,7 +60,7 @@ function Stats({ breweries, totalBreweries = 0 }) {
 
       <div style={{ textAlign: "center" }}>
         <h3 style={{ margin: "0 0 0.5rem 0", color: "#333" }}>
-          🏛️ Geographic Reach
+          Geographic Reach
         </h3>
         <p
           style={{
@@ -76,7 +76,7 @@ function Stats({ breweries, totalBreweries = 0 }) {
       </div>
 
       <div style={{ textAlign: "center" }}>
-        <h3 style={{ margin: "0 0 0.5rem 0", color: "#333" }}>🏙️ Cities</h3>
+        <h3 style={{ margin: "0 0 0.5rem 0", color: "#333" }}>Cities</h3>
         <p
           style={{
             fontSize: "1.5rem",
@@ -109,7 +109,7 @@ function Stats({ breweries, totalBreweries = 0 }) {
 
       <div style={{ textAlign: "center" }}>
         <h3 style={{ margin: "0 0 0.5rem 0", color: "#333" }}>
-          📏 Avg Name Length
+          Avg Name Length
         </h3>
         <p
           style={{
@@ -126,7 +126,7 @@ function Stats({ breweries, totalBreweries = 0 }) {
 
       <div style={{ textAlign: "center" }}>
         <h3 style={{ margin: "0 0 0.5rem 0", color: "#333" }}>
-          🌐 With Websites
+          With Websites
         </h3>
         <p
           style={{

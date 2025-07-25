@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function BreweryCard({ brewery }) {
   const formatPhone = (phone) => {
     if (!phone) return "N/A";
@@ -93,6 +95,32 @@ function BreweryCard({ brewery }) {
           </a>
         </div>
       )}
+
+      {/* Detail View Link */}
+      <div style={{ marginTop: "1rem", textAlign: "center" }}>
+        <Link
+          to={`/brewery/${brewery.id}`}
+          style={{
+            display: "inline-block",
+            backgroundColor: "#3182ce",
+            color: "white",
+            padding: "0.5rem 1rem",
+            borderRadius: "6px",
+            textDecoration: "none",
+            fontSize: "0.9rem",
+            fontWeight: "bold",
+            transition: "background-color 0.2s",
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.backgroundColor = "#2c5282";
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.backgroundColor = "#3182ce";
+          }}
+        >
+          📝 View Details →
+        </Link>
+      </div>
     </div>
   );
 }
